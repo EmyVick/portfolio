@@ -16,7 +16,7 @@
 .projeto-content img,
 .projeto-content h3,
 .projeto-content p {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 800px) {
