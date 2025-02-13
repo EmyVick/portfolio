@@ -7,7 +7,7 @@
 }
 
 .botao {
-  padding: 16px 32px;
+  padding: 12px 32px;
   display: inline-block;
   background: var(--cor-0);
   border: solid 2px var(--cor-5);

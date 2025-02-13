@@ -2,6 +2,10 @@
   padding: 80px 0px;
 }
 
+.ultimos-projetos h2 {
+  margin-bottom: 20px;
+}
+
 .ultimos-projetos-recentes {
   display: flex;
   align-items: center;
@@ -9,7 +13,9 @@
   padding: 32px;
 }
 
-.projeto-content img, .projeto-content h3, .projeto-content p{
+.projeto-content img,
+.projeto-content h3,
+.projeto-content p {
   margin-bottom: 20px;
 }
 
