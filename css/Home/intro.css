@@ -13,3 +13,9 @@
   gap: 12px;
   padding-bottom: 20px;
 }
+
+@media(max-width: 800px){
+  .intro-redes a img{
+    width: 32px;
+  }
+}

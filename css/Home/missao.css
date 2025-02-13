@@ -10,3 +10,9 @@
   display: flex;
   gap: 32px;
 }
+
+@media(max-width: 800px){
+  .missao-botoes {
+    gap: 12px;
+  }
+}
