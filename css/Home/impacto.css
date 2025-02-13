@@ -1,0 +1,29 @@
+.impacto {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.impacto h2::before {
+  display: block;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: var(--cor-p4);
+  border-radius: 50%;
+  margin: 0px 0px 40px 0px;
+}
+
+.impacto img {
+  margin-top: 40px;
+}
+
+.impacto h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .impacto {
+    flex-direction: column;
+  }
+}

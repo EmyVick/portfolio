@@ -1,0 +1,15 @@
+.intro-bg {
+  background: var(--cor-p1);
+  padding-top: 180px;
+}
+
+.intro h1 {
+  padding-bottom: 180px;
+  text-align: center;
+}
+
+.intro-redes ul {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 20px;
+}

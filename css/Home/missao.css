@@ -1,0 +1,12 @@
+.missao {
+  padding: 80px 0px;
+}
+
+.missao h2 {
+  margin-bottom: 40px;
+}
+
+.missao-botoes {
+  display: flex;
+  gap: 32px;
+}

@@ -1,0 +1,37 @@
+.footer-bg {
+  background: #333333;
+  padding: 32px 0px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.footer span {
+  padding-top: 120px;
+  grid-column: 1/-1;
+}
+
+.footer h2 {
+  margin-bottom: 16px;
+}
+
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer a:hover {
+  color: var(--cor-0);
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer span {
+    padding-top: 80px;
+  }
+}
