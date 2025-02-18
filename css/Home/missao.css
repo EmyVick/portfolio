@@ -8,6 +8,7 @@
 
 .missao-botoes {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
