@@ -22,9 +22,9 @@
 }
 
 .botao.botao-secundario {
-  background: var(--cor-p4);
-  color: var(--cor-1);
-  border-color: var(--cor-p4);
+  background: var(--cor-p1);
+  color: var(--cor-11);
+  border-color: var(--cor-p1);
 }
 
 
