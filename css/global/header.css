@@ -16,6 +16,10 @@
   flex-wrap: wrap;
 }
 
+.header li:hover{
+  color: #495e93;
+}
+
 @media(max-width: 800px){
   .header ul {
     display: none;
