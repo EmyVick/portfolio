@@ -1,6 +1,19 @@
+body {
+  padding-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .header-bg {
   padding: 32px 0px;
   background: var(--cor-1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .header nav {
@@ -16,12 +29,56 @@
   flex-wrap: wrap;
 }
 
-.header li:hover{
+.header li:hover {
   color: #495e93;
 }
 
-@media(max-width: 800px){
+@media (max-width: 800px) {
   .header ul {
     display: none;
+  }
+}
+
+/* Esconder o botão hambúrguer em telas grandes */
+.menu-hamburguer {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #253458; /* Cor do ícone */
+}
+
+/* Esconder o menu em telas pequenas por padrão */
+@media (max-width: 800px) {
+  .menu-hamburguer {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  nav ul.menu-ativo {
+    display: flex;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
   }
 }
