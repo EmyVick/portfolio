@@ -29,6 +29,7 @@
 @media (max-width: 800px) {
   .projetos-img {
     padding: 0px 20px;
+    gap: 26px;
     grid-template-columns: 1fr;
   }
 }
